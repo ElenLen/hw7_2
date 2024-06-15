@@ -1,0 +1,217 @@
+.body{
+    min-width: 460px;
+}
+
+/* строка headera */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    /* padding: 24px 0px; */
+    width: 102px;
+    height: 80px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    width: 500px;
+    height: 48px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+}
+
+.location {
+    padding: 0px 20px 0px 16px;
+    width: 99px;
+    height: 22px;
+}
+.span {
+    width: 1px;
+    height: 24px;
+    background: #ddd;
+}
+.scheduling {
+    padding: 0px 19px 0px 16px;
+    width: 96px;
+    height: 22px;
+}
+
+.add{
+    padding: 0px 18px 0px 16px;
+    width: 105px;
+    height: 22px;
+}
+
+.search_add{
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    background: #ff385c;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.airbnb {
+    padding: 12px 18px 12px 12px;
+    width: 142px;
+    height: 42px;
+}
+
+.locations {
+    padding: 13px 12px;
+    width: 40px;
+    height: 42px;
+}
+.main {
+    border: 1px solid #ddd;
+    border-radius: 21px;
+    width: 77px;
+    height: 42px;
+    background: #fff;
+}
+/* строка с выбором категории */
+.category {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 78px;
+    background: #fff;
+    flex-wrap: wrap;
+}
+.amvi {
+    width: 84px;
+    height: 47px;
+}
+.lakefr {
+    width: 56px;
+    height: 48px;
+}
+.caves {
+    padding: 0px 11px 0px 11px;
+    width: 56px;
+    height: 48px;
+}
+.omgi {
+    padding: 0px 12px 0px 12px;
+    width: 56px;
+    height: 48px;
+}
+.earth {
+    padding: 0px 1px 0px 1px;
+    width: 71px;
+    height: 48px;
+}
+.treel {
+    width: 65px;
+    height: 48px;
+}
+.mans {
+    padding: 0px 1px 0px 1px;
+    width: 56px;
+    height: 48px;
+}
+.cabins {
+    padding: 0px 9px 0px 8px;
+    width: 56px;
+    height: 48px;
+}
+.amazing {
+    padding: 0px 1px 0px 1px;
+    width: 83px;
+    height: 48px;
+}
+.islands {
+    padding: 0px 8px 0px 8px;
+    width: 56px;
+    height: 48px;
+}
+.beach {
+    width: 63px;
+    height: 48px;
+}
+.trend {
+    padding: 0px 4px 0px 3px;
+    width: 56px;
+    height: 48px;
+}
+.next {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 14px;
+    width: 26px;
+    height: 26px;
+    background: #fff;
+}
+.more {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 90px;
+    height: 48px;
+}
+/* строка с поиском цен */
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.textt {
+    padding: 0px 20px 0px 0px;
+    width: 400px;
+    height: 19px;
+}
+.toggle {
+    border-radius: 32px;
+    fill: #b0b0b0;
+    border: 1px solid #b0b0b0;
+}
+/* грид для ячеек */
+.air_grid {
+    display: flex;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* ячейки */
+.air {
+    width: 302px;
+    height: 386px;
+}
+/* подвал */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1em;
+}
+.terms {
+    width: 400px;
+    height: 20px;
+}
+.map {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+    width: 132px;
+    height: 48px;
+    background: #222;
+}
+.settings {
+    width: 352px;
+    height: 18px;
+}
